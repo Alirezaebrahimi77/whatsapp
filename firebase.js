@@ -3,13 +3,13 @@ import { getFirestore} from 'firebase/firestore';
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: process.env.API_KEY,
-    authDomain: process.env.AUTH_DOMAIN,
-    projectId: process.env.PROJECT_ID,
-    storageBucket: process.env.STORAGE_BUCKET,
-    messagingSenderId: process.env.MESSAGING_SENDER_ID,
-    appId: process.env.APP_ID,
-  };
+  apiKey: "AIzaSyADva_TJGuAgUCru6ZhNa-oVOPOECRgDdU",
+  authDomain: "whatsapp2-13ed9.firebaseapp.com",
+  projectId: "whatsapp2-13ed9",
+  storageBucket: "whatsapp2-13ed9.appspot.com",
+  messagingSenderId: "357263260822",
+  appId: "1:357263260822:web:08eb45143154066de916b7"
+};
 
 initializeApp(firebaseConfig);
 
